@@ -48,7 +48,6 @@ public class clientes {
             //Coge los nodos hijos de cada nodo hijo
             NodeList nodosNietos = nodosHijos.item(i).getChildNodes();
 
-            atrNietos = nodoNieto.getAttributes();
             for (int j = 0; j < nodosNietos.getLength(); j++) {
                 System.out.println("\t"+nodosNietos.item(j).getNodeName() +": "+nodosNietos.item(j).getTextContent());
             }
